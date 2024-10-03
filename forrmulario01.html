@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <div>
+        <h1>Cadastro de DEVs</h1>
+        <p>Complete suas informações</p>
+        <br>
+    </div>
+
+    <form>
+        <fieldset>
+            <div>
+                <label for="firstname">Nome</label>
+                <input type="text" name="firstname" id="firstname">
+            </div>
+
+            <div>
+                <label for="secundname">Sobrenome</label>
+                <input type="text" name="secundname" id="secundname">
+            </div>
+    </fieldset>
+            <div>
+                <label for="e-mail">e-mail</label>
+                <input type="email" name="e-mail" id="e-mail">
+            </div>
+
+            <div>
+                <label>De qual lado da aplicação voce desenvolve?
+                </label>
+                <label for="devweb">
+                    <input type="radio" name="devweb" value="frontend" checked>Front-end
+                </label>
+                <label for="devweb">
+                    <input type="radio" name="devweb" value="backend">Back-end
+                </label>
+                <label for="devweb">
+                    <input type="radio" name="devweb" value="fullstack"> fullstack
+                </label>
+            </div>
+
+            <div>
+                <label for="senioridade">Senioridade</label>
+                <select name="senioridade" id="senioridade">
+                    <option selected disabled value="">Selecione</option>
+                    <Option>Junior</Option>
+                    <option>Pleno</option>
+                    <option>Senior</option>
+                </select>
+            </div>
+            
+            <fieldset>
+                <div>
+                    <label for=""></label>
+                </div>
+            </fieldset>
+    </form>
+</body>
+</html>
